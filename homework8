@@ -1,0 +1,4 @@
+1) CREATE TABLE IF NOT EXISTS employee(id SERIAL PRIMARY KEY, name VARCHAR(50) NOT NULL, birthday DATE, email VARCHAR(100));
+2) -added 50 employee-
+3) UPDATE employee SET email = 'glen@kopmann.com' WHERE id = 41;
+4) DELETE FROM employee WHERE name LIKE 'Gl%';
